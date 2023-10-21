@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "../assets/icons/logo.svg";
 import { ReactComponent as MenuIcon } from "../assets/icons/menu_icon.svg";
-import "./navbar.css";
+import "./NavBar.css";
 
 const NavBar = () => {
   const [showNavBar, setShowNavBar] = useState(false);
