@@ -13,7 +13,7 @@ const NavBar = () => {
 
   return (
     <nav className="navbar">
-      <div className="container">
+      <div className="navbar-container">
         <div className="logo-container">
           <div className="logo">
             <img className="logo-image" src={logo} alt="Logo" />
@@ -37,19 +37,19 @@ const NavBar = () => {
               <NavLink to="/psykoterapi">Psykoterapi</NavLink>
             </li>
             <li>
-              <NavLink to="/föräldrastöd">Föräldrastöd</NavLink>
+              <NavLink to="/foraldrastod">Föräldrastöd</NavLink>
             </li>
             <li>
               <NavLink to="/handledning">Handledning</NavLink>
             </li>
             <li>
-              <NavLink to="/kvalitetssäkring">Kvalitetssäkring</NavLink>
+              <NavLink to="/kvalitetssakring">Kvalitetssäkring</NavLink>
             </li>
             <li>
               <NavLink to="/kontakt">Kontakt</NavLink>
             </li>
             <li>
-              <NavLink to="/hitta-hit">Hitta hit</NavLink>
+              <NavLink to="/hitta">Hitta hit</NavLink>
             </li>
           </ul>
         </div>
