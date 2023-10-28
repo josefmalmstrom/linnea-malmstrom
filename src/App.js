@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import Hem from "./pages/Hem";
 import Psykoterapi from "./pages/Psykoterapi";
 import Föräldrastöd from "./pages/Föräldrastöd";
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/kontakt" element={<Kontakt />} />
         <Route exact path="/hitta" element={<Hitta />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

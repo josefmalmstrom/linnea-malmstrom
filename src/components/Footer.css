@@ -1,0 +1,6 @@
+footer {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 0;
+  background-color: red;
+}
