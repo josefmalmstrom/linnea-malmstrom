@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { ReactComponent as Logo } from "../assets/icons/logo.svg";
+import logo from "../assets/icons/tree.png";
 import { ReactComponent as MenuIcon } from "../assets/icons/menu_icon.svg";
 import "./NavBar.css";
 
@@ -14,13 +14,15 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="logo">
-          <Logo width={50} />
-        </div>
+        <div className="logo-container">
+          <div className="logo">
+            <img className="logo-image" src={logo} alt="Logo" />
+          </div>
 
-        <div className="title-container">
-          <h1 className="title">Linnea Malmström</h1>
-          <h2 className="sub-title">psykoterapi och handledning</h2>
+          <div className="title-container">
+            <h1 className="title">Linnea Malmström</h1>
+            <h2 className="sub-title">psykoterapi och handledning</h2>
+          </div>
         </div>
         <div className="menu-icon" onClick={handleShowNavBar}>
           <MenuIcon width={50} />

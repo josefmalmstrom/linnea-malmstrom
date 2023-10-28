@@ -8,41 +8,39 @@ body {
 }
 
 .container {
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 0 15px;
+  padding: 30px 15px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
-.logo {
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10vh;
 }
 
-h1 {
-  font-size: 15px;
-}
-h2 {
-  font-size: 10px;
-}
-
-.title-container {
+.logo-image {
+  width: 90px;
+  margin-right: 0.5vh;
+  margin-top: 1vh;
 }
 
 .title {
-  display: block;
-  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  white-space: nowrap;
 }
 .sub-title {
+  font-size: 15px;
+  font-weight: 500;
   margin-top: -1.5em;
   white-space: nowrap;
-  display: block;
 }
 
 .navbar {
   height: 60px;
-  position: relative;
 }
 
 .menu-icon {
@@ -50,16 +48,17 @@ h2 {
 }
 
 .nav-elements {
+  display: flex;
+  margin-right: auto;
 }
 
 .nav-elements ul {
   display: flex;
-  justify-content: space-between;
   list-style-type: none;
 }
 
 .nav-elements ul li:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 2vh;
 }
 
 .nav-elements ul a {
@@ -85,22 +84,39 @@ h2 {
   background-color: #574c4c;
 }
 
-@media (max-width: 768px) {
-  .nav-elements ul li:not(:last-child) {
-    margin-right: 30px;
+/* --------------- Tablet -------------- */
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .logo-container {
+    margin-left: 0;
+    margin-right: auto;
+    height: 100%;
+  }
+  .nav-elements {
+    margin-top: 1vh;
+    margin-left: 1vh;
   }
 }
 
-@media (max-width: 600px) {
+/* --------------- Phone --------------- */
+@media screen and (max-width: 767px) {
+  .logo-container {
+    margin-left: 0;
+  }
+
   .menu-icon {
-    display: block;
+    display: flex;
+    margin-left: auto;
     cursor: pointer;
   }
 
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 60px;
+    top: 80px;
     height: 0px;
     width: 100vw;
     transition: all 0.3s ease-in;
@@ -113,8 +129,11 @@ h2 {
   }
 
   .nav-elements ul {
-    display: flex;
     flex-direction: column;
+  }
+
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 30px;
   }
 
   .nav-elements ul li {
