@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/icons/tree.png";
 import { ReactComponent as MenuIcon } from "../assets/icons/menu_icon.svg";
+import { ReactComponent as CloseIcon } from "../assets/icons/close.svg";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -25,31 +26,45 @@ const NavBar = () => {
           </div>
         </div>
         <div className="menu-icon" onClick={handleShowNavBar}>
-          <MenuIcon width={50} />
+          {showNavBar ? <CloseIcon width={40} /> : <MenuIcon width={50} />}
         </div>
 
         <div className={`nav-elements  ${showNavBar && "active"}`}>
           <ul>
             <li>
-              <NavLink to="/">Hem</NavLink>
+              <NavLink to="/" onClick={handleShowNavBar}>
+                Hem
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/psykoterapi">Psykoterapi</NavLink>
+              <NavLink to="/psykoterapi" onClick={handleShowNavBar}>
+                Psykoterapi
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/foraldrastod">Föräldrastöd</NavLink>
+              <NavLink to="/foraldrastod" onClick={handleShowNavBar}>
+                Föräldrastöd
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/handledning">Handledning</NavLink>
+              <NavLink to="/handledning" onClick={handleShowNavBar}>
+                Handledning
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/kvalitetssakring">Kvalitetssäkring</NavLink>
+              <NavLink to="/kvalitetssakring" onClick={handleShowNavBar}>
+                Kvalitetssäkring
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/kontakt">Kontakt</NavLink>
+              <NavLink to="/kontakt" onClick={handleShowNavBar}>
+                Kontakt
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/hitta">Hitta hit</NavLink>
+              <NavLink to="/hitta" onClick={handleShowNavBar}>
+                Hitta hit
+              </NavLink>
             </li>
           </ul>
         </div>

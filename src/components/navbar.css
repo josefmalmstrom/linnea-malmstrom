@@ -31,7 +31,9 @@
 }
 
 .navbar {
-  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
 }
 
 .menu-icon {
@@ -101,21 +103,25 @@
   .menu-icon {
     display: flex;
     margin-left: auto;
+    margin-right: 20px;
     cursor: pointer;
+    fill: #574c4c;
+    z-index: 1;
   }
 
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 80px;
+    top: 140px;
     height: 0px;
     width: 100vw;
-    transition: all 0.3s ease-in;
+    transition: height 0.3s ease-in;
     overflow: hidden;
+    background-color: white;
   }
 
   .nav-elements.active {
-    height: 370px;
+    height: 340px;
     border-bottom: 1px solid #574c4c;
   }
 
@@ -127,7 +133,10 @@
     margin-right: 30px;
   }
 
-  .nav-elements ul li {
+  .nav-elemens ul li:first-child {
+    margin-top: 0px;
+  }
+  .nav-elements ul li:not(:first-child) {
     margin-right: unset;
     margin-top: 22px;
   }
