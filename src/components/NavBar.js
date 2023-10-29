@@ -15,7 +15,12 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="logo-container">
+        <div
+          className="logo-container"
+          onClick={(event) => {
+            window.open("/", "_self");
+          }}
+        >
           <div className="logo">
             <img className="logo-image" src={logo} alt="Logo" />
           </div>
