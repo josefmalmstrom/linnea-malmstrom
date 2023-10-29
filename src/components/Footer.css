@@ -1,6 +1,54 @@
 footer {
   display: flex;
-  margin-top: auto;
-  margin-bottom: 0;
-  background-color: red;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto auto 10px auto;
+  max-width: 1500px;
+  gap: 20px;
+  width: 100%;
+}
+
+.copyright-notice {
+  text-align: center;
+  max-width: 300px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.booking-button {
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-icon {
+  height: 25px;
+  margin-bottom: 0.1vh;
+}
+
+/* --------------- Phone --------------- */
+@media screen and (max-width: 767px) {
+  footer {
+    flex-direction: column-reverse;
+  }
+  .copyright-notice {
+    max-width: 500px;
+  }
 }
