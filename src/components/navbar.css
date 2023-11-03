@@ -1,5 +1,5 @@
 .navbar-container {
-  padding: 30px 15px;
+  padding: 10px 10px;
   display: flex;
   align-items: center;
   height: 100%;
@@ -24,6 +24,7 @@
   font-weight: 500;
   white-space: nowrap;
 }
+
 .sub-title {
   font-size: 15px;
   font-weight: 500;
@@ -79,9 +80,10 @@
 }
 
 /* --------------- Tablet -------------- */
-@media screen and (min-width: 768px) and (max-width: 1250px) {
+@media screen and (min-width: 830px) and (max-width: 1250px) {
   .navbar-container {
     flex-direction: column;
+    align-items: center;
   }
 
   .logo-container {
@@ -91,20 +93,26 @@
   }
   .nav-elements {
     margin-top: 1vh;
-    margin-left: 1vh;
   }
 }
 
 /* --------------- Phone --------------- */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 829px) {
+  .navbar {
+    align-self: stretch;
+  }
+
+  .navbar-container {
+    padding-left: 0;
+  }
+
   .logo-container {
     margin-left: 0;
   }
 
   .menu-icon {
-    display: flex;
+    display: block;
     margin-left: auto;
-    margin-right: 20px;
     cursor: pointer;
     fill: #574c4c;
     z-index: 1;
