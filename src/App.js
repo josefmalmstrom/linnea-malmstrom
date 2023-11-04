@@ -19,17 +19,17 @@ function App() {
     <HashRouter>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Hem />} />
-        <Route exact path="/psykoterapi" element={<Psykoterapi />} />
+        <Route path="/" element={<Hem />} />
+        <Route path="/psykoterapi" element={<Psykoterapi />} />
         {["/föräldrastöd", "/foraldrastod"].map((path) => (
-          <Route exact path={path} element={<Föräldrastöd />}></Route>
+          <Route path={path} element={<Föräldrastöd />}></Route>
         ))}
-        <Route exact path="/handledning" element={<Handledning />} />
+        <Route path="/handledning" element={<Handledning />} />
         {["/kvalitetssäkring", "/kvalitetssakring"].map((path) => (
-          <Route exact path={path} element={<Kvalitet />}></Route>
+          <Route path={path} element={<Kvalitet />}></Route>
         ))}
-        <Route exact path="/kontakt" element={<Kontakt />} />
-        <Route exact path="/hitta" element={<Hitta />} />
+        <Route path="/kontakt" element={<Kontakt />} />
+        <Route path="/hitta" element={<Hitta />} />
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
       <Footer />
