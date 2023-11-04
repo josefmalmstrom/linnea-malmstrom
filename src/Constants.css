@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --off-white: #fcfcfc;
+  --soothing-green: #4caf50;
+  --forest-green: #00762a;
+  --neutral-grey: #574c4c;
+  --cool-purple: #2f234f;
+  /* Font sizes */
+  --desktop-font-size: 16px;
+  --tablet-font-size: 16px;
+  --phone-font-size: 16px;
+  --title-font-size: 28px;
+  --subtitle-font-size: 22px;
+  /* Content size */
+  --content-max-width: 1000px;
+}

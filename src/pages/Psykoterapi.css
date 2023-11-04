@@ -1,8 +1,10 @@
+@import "../Constants.css";
+
 .psykoterapi-container {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: 1100px;
+  max-width: var(--content-max-width);
 }
 
 .psykoterapi-content {
@@ -36,6 +38,6 @@
     width: 50%;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }

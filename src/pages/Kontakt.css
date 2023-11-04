@@ -1,8 +1,10 @@
+@import "../Constants.css";
+
 .kontakt-container {
   display: flex;
   flex-direction: row;
   margin: auto;
-  max-width: 900px;
+  max-width: var(--content-max-width);
 }
 
 .kontakt-text {
