@@ -16,7 +16,8 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    // TODO: Remove basename
+    <BrowserRouter basename="linnea-malmstrom">
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Hem />} />
