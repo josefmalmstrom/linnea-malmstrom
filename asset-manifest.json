@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/linnea-malmstrom/static/css/main.0b217447.css",
-    "main.js": "/linnea-malmstrom/static/js/main.8081a969.js",
+    "main.js": "/linnea-malmstrom/static/js/main.f6df6f74.js",
     "static/js/787.d8887d0f.chunk.js": "/linnea-malmstrom/static/js/787.d8887d0f.chunk.js",
     "static/media/linnea_malmstrom.jpg": "/linnea-malmstrom/static/media/linnea_malmstrom.bbe0e18639eb5f6d00fd.jpg",
     "static/media/greenery_light.jpg": "/linnea-malmstrom/static/media/greenery_light.73a9154c207aec4783d5.jpg",
@@ -16,11 +16,11 @@
     "static/media/email.svg": "/linnea-malmstrom/static/media/email.0e360d89f55ba99cc1ef1d224e5829b2.svg",
     "static/media/phone.svg": "/linnea-malmstrom/static/media/phone.a6541346bd67ac829c0c7c527ee66d1e.svg",
     "main.0b217447.css.map": "/linnea-malmstrom/static/css/main.0b217447.css.map",
-    "main.8081a969.js.map": "/linnea-malmstrom/static/js/main.8081a969.js.map",
+    "main.f6df6f74.js.map": "/linnea-malmstrom/static/js/main.f6df6f74.js.map",
     "787.d8887d0f.chunk.js.map": "/linnea-malmstrom/static/js/787.d8887d0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b217447.css",
-    "static/js/main.8081a969.js"
+    "static/js/main.f6df6f74.js"
   ]
 }
