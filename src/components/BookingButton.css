@@ -1,0 +1,9 @@
+.booking-button-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.booking-button-link-icon {
+  height: 25px;
+  margin-bottom: 0.1vh;
+}
