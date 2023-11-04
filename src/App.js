@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -16,8 +16,7 @@ import "./App.css";
 
 function App() {
   return (
-    // TODO: Remove basename
-    <BrowserRouter basename="linnea-malmstrom">
+    <HashRouter>
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Hem />} />
@@ -34,7 +33,7 @@ function App() {
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
