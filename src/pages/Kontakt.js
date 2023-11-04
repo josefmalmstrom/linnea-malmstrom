@@ -5,8 +5,8 @@ import "./Kontakt.css";
 const Kontakt = () => {
   return (
     <div className="kontakt-container">
-      <h1>Kontakt</h1>
       <div className="kontakt-text">
+        <h1>Kontakt</h1>
         <p>
           Jag tar emot besök på Södermalms psykoterapimottagning på Lehusens
           gränd 2, Södermalm.
