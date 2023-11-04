@@ -80,7 +80,7 @@
 }
 
 /* --------------- Tablet -------------- */
-@media screen and (min-width: 830px) and (max-width: 1250px) {
+@media screen and (min-width: 830px) and (max-width: 1280px) {
   .navbar-container {
     flex-direction: column;
     align-items: center;
