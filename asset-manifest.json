@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/linnea-malmstrom/static/css/main.0b217447.css",
-    "main.js": "/linnea-malmstrom/static/js/main.f8332122.js",
-    "static/js/787.d8887d0f.chunk.js": "/linnea-malmstrom/static/js/787.d8887d0f.chunk.js",
-    "static/media/linnea_malmstrom.jpg": "/linnea-malmstrom/static/media/linnea_malmstrom.bbe0e18639eb5f6d00fd.jpg",
-    "static/media/greenery_light.jpg": "/linnea-malmstrom/static/media/greenery_light.73a9154c207aec4783d5.jpg",
-    "static/media/birds.jpg": "/linnea-malmstrom/static/media/birds.a7121bafc464f61e3ad9.jpg",
-    "static/media/sprouts.jpg": "/linnea-malmstrom/static/media/sprouts.78178d572d9e74ed3b5d.jpg",
-    "static/media/knoppar.jpg": "/linnea-malmstrom/static/media/knoppar.dfdd9ef8934a3dc7279b.jpg",
-    "static/media/tree.png": "/linnea-malmstrom/static/media/tree.4b10b745b23582fb2667.png",
-    "static/media/menu_icon.svg": "/linnea-malmstrom/static/media/menu_icon.fef23485b2b7578afb246d4894afc3c4.svg",
-    "index.html": "/linnea-malmstrom/index.html",
-    "static/media/external-link.svg": "/linnea-malmstrom/static/media/external-link.a9bb24948529df588f5ec5432ad24609.svg",
-    "static/media/close.svg": "/linnea-malmstrom/static/media/close.694349d373564713b9d92afcd5adef01.svg",
-    "static/media/email.svg": "/linnea-malmstrom/static/media/email.0e360d89f55ba99cc1ef1d224e5829b2.svg",
-    "static/media/phone.svg": "/linnea-malmstrom/static/media/phone.a6541346bd67ac829c0c7c527ee66d1e.svg",
-    "main.0b217447.css.map": "/linnea-malmstrom/static/css/main.0b217447.css.map",
-    "main.f8332122.js.map": "/linnea-malmstrom/static/js/main.f8332122.js.map",
-    "787.d8887d0f.chunk.js.map": "/linnea-malmstrom/static/js/787.d8887d0f.chunk.js.map"
+    "main.css": "/static/css/main.0b217447.css",
+    "main.js": "/static/js/main.724b3273.js",
+    "static/js/787.d8887d0f.chunk.js": "/static/js/787.d8887d0f.chunk.js",
+    "static/media/linnea_malmstrom.jpg": "/static/media/linnea_malmstrom.bbe0e18639eb5f6d00fd.jpg",
+    "static/media/greenery_light.jpg": "/static/media/greenery_light.73a9154c207aec4783d5.jpg",
+    "static/media/birds.jpg": "/static/media/birds.a7121bafc464f61e3ad9.jpg",
+    "static/media/sprouts.jpg": "/static/media/sprouts.78178d572d9e74ed3b5d.jpg",
+    "static/media/knoppar.jpg": "/static/media/knoppar.dfdd9ef8934a3dc7279b.jpg",
+    "static/media/tree.png": "/static/media/tree.4b10b745b23582fb2667.png",
+    "static/media/menu_icon.svg": "/static/media/menu_icon.fef23485b2b7578afb246d4894afc3c4.svg",
+    "index.html": "/index.html",
+    "static/media/external-link.svg": "/static/media/external-link.a9bb24948529df588f5ec5432ad24609.svg",
+    "static/media/close.svg": "/static/media/close.694349d373564713b9d92afcd5adef01.svg",
+    "static/media/email.svg": "/static/media/email.0e360d89f55ba99cc1ef1d224e5829b2.svg",
+    "static/media/phone.svg": "/static/media/phone.a6541346bd67ac829c0c7c527ee66d1e.svg",
+    "main.0b217447.css.map": "/static/css/main.0b217447.css.map",
+    "main.724b3273.js.map": "/static/js/main.724b3273.js.map",
+    "787.d8887d0f.chunk.js.map": "/static/js/787.d8887d0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b217447.css",
-    "static/js/main.f8332122.js"
+    "static/js/main.724b3273.js"
   ]
 }
