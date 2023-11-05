@@ -2,7 +2,7 @@
 
 .hitta-container {
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--desktop-content-max-width);
 }
 
 .hitta-instructions-and-map {
@@ -27,7 +27,7 @@
 }
 
 /* --------------- Tablet -------------- */
-@media screen and (min-width: 830px) and (max-width: 1280px) {
+@media screen and (min-width: 801px) and (max-width: 1280px) {
   .hitta-instructions-and-map {
     flex-direction: column;
   }
@@ -46,21 +46,21 @@
 }
 
 /* --------------- Phone --------------- */
-@media screen and (max-width: 829px) {
+@media screen and (max-width: 800px) {
   .hitta-instructions-and-map {
     flex-direction: column;
   }
 
   .hitta-instructions-container {
     margin: auto;
-    width: 80%;
+    width: 100%;
     margin-bottom: 20px;
   }
 
   .hitta-map {
-    width: 80%;
-    min-height: 500px;
+    width: 100%;
+    min-height: 400px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 }

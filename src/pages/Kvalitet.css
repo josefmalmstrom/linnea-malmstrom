@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--desktop-content-max-width);
 }
 
 .kvalitet-content {
@@ -22,7 +22,7 @@
 }
 
 /* --------------- Tablet -------------- */
-@media screen and (min-width: 830px) and (max-width: 1280px) {
+@media screen and (min-width: 801px) and (max-width: 1280px) {
   .kvalitet-container {
     flex-direction: column;
   }
@@ -39,18 +39,19 @@
 }
 
 /* --------------- Phone --------------- */
-@media screen and (max-width: 829px) {
+@media screen and (max-width: 800px) {
   .kvalitet-container {
     flex-direction: column;
+    margin-bottom: 50px;
   }
 
   .kvalitet-text {
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .kvalitet-image {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
 }

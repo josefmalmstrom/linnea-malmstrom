@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--desktop-content-max-width);
 }
 
 .handledning-content {
@@ -21,7 +21,7 @@
 }
 
 /* --------------- Tablet -------------- */
-@media screen and (min-width: 830px) and (max-width: 1280px) {
+@media screen and (min-width: 801px) and (max-width: 1280px) {
   .handledning-content {
     flex-direction: column;
   }
@@ -38,18 +38,19 @@
 }
 
 /* --------------- Phone --------------- */
-@media screen and (max-width: 829px) {
+@media screen and (max-width: 800px) {
   .handledning-content {
     flex-direction: column;
+    margin-bottom: 50px;
   }
 
   .handledning-text {
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .handledning-image {
-    width: 50%;
+    width: 80%;
     margin: auto;
   }
 }

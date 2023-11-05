@@ -18,20 +18,22 @@ function App() {
   return (
     <HashRouter>
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Hem />} />
-        <Route path="/psykoterapi" element={<Psykoterapi />} />
-        {["/föräldrastöd", "/foraldrastod"].map((path) => (
-          <Route path={path} element={<Föräldrastöd />}></Route>
-        ))}
-        <Route path="/handledning" element={<Handledning />} />
-        {["/kvalitetssäkring", "/kvalitetssakring"].map((path) => (
-          <Route path={path} element={<Kvalitet />}></Route>
-        ))}
-        <Route path="/kontakt" element={<Kontakt />} />
-        <Route path="/hitta" element={<Hitta />} />
-        <Route path="*" element={<NotFound />}></Route>
-      </Routes>
+      <div className="root-div">
+        <Routes>
+          <Route path="/" element={<Hem />} />
+          <Route path="/psykoterapi" element={<Psykoterapi />} />
+          {["/föräldrastöd", "/foraldrastod"].map((path) => (
+            <Route path={path} element={<Föräldrastöd />}></Route>
+          ))}
+          <Route path="/handledning" element={<Handledning />} />
+          {["/kvalitetssäkring", "/kvalitetssakring"].map((path) => (
+            <Route path={path} element={<Kvalitet />}></Route>
+          ))}
+          <Route path="/kontakt" element={<Kontakt />} />
+          <Route path="/hitta" element={<Hitta />} />
+          <Route path="*" element={<NotFound />}></Route>
+        </Routes>
+      </div>
       <Footer />
     </HashRouter>
   );

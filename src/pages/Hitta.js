@@ -1,5 +1,3 @@
-import { useRef, useEffect } from "react";
-
 import "./Hitta.css";
 
 const GoogleMap = () => {

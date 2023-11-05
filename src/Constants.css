@@ -12,5 +12,7 @@
   --title-font-size: 28px;
   --subtitle-font-size: 22px;
   /* Content size */
-  --content-max-width: 1000px;
+  --desktop-content-max-width: 1000px;
+  --tablet-content-max-width: 800px;
+  --phone-content-max-width: 790px;
 }

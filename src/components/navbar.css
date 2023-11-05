@@ -1,3 +1,5 @@
+@import "../Constants.css";
+
 .navbar-container {
   padding: 5px 10px;
   display: flex;
@@ -80,10 +82,11 @@
 }
 
 /* --------------- Tablet -------------- */
-@media screen and (min-width: 830px) and (max-width: 1280px) {
+@media screen and (min-width: 801px) and (max-width: 1280px) {
   .navbar-container {
     flex-direction: column;
     align-items: center;
+    max-width: var(--tablet-content-max-width);
   }
 
   .logo-container {
@@ -94,34 +97,73 @@
   .nav-elements {
     margin-top: 1vh;
   }
+
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 1vh;
+  }
 }
 
 /* --------------- Phone --------------- */
-@media screen and (max-width: 829px) {
+@media screen and (max-width: 800px) {
   .navbar {
-    align-self: stretch;
+    width: 100%;
   }
-
   .navbar-container {
-    padding-left: 0;
+    width: 100%;
   }
 
   .logo-container {
-    margin-left: 0;
+    margin-left: 5px;
+  }
+
+  .logo-image {
+    width: 60px;
+    margin-right: 0.5vh;
+    margin-top: 1vh;
+  }
+
+  .title-container {
+    margin-right: auto;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .sub-title {
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
   }
 
   .menu-icon {
-    display: block;
-    margin-left: auto;
+    display: flex;
     cursor: pointer;
     fill: var(--neutral-grey);
+    margin-top: 5px;
     z-index: 1;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .menu-open {
+    width: 50px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-close {
+    width: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 110px;
+    top: 90px;
     height: 0px;
     width: 100vw;
     transition: height 0.3s ease-in;

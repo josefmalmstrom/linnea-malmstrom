@@ -31,7 +31,11 @@ const NavBar = () => {
           </div>
         </div>
         <div className="menu-icon" onClick={handleShowNavBar}>
-          {showNavBar ? <CloseIcon width={40} /> : <MenuIcon width={50} />}
+          {showNavBar ? (
+            <CloseIcon className="menu-close" />
+          ) : (
+            <MenuIcon className="menu-open" />
+          )}
         </div>
 
         <div className={`nav-elements  ${showNavBar && "active"}`}>
